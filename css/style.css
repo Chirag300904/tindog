@@ -1,0 +1,143 @@
+.section1{
+    background-color:  orange;
+    padding-bottom: 50px;
+}
+.navbar{
+    color: #fff;
+    margin: 0% 15%;
+}
+.nav-item{
+    padding: 5%;
+}
+.icon1{
+    margin-bottom: 12px;
+    color: orange;
+    font-size: 2.75rem;
+}
+.icon1:hover{
+    color: orangered;
+    
+}
+#features{
+    text-align: center;
+    padding: 6% 0%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.fa-check{
+    background-color: orange;
+    border: 1px solid ;
+    border-radius: 100%;
+    padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar-brand{
+    font-size: 1.75rem;
+    font-weight: bold;
+    font-family: 'Manrope', sans-serif;
+}
+.titleheading{
+    font-size: 3.5rem;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 10%;
+    
+    color: white;
+    font-family: 'Source Serif Pro', serif;
+}
+.topbtn1{
+    margin-left: 90px;
+    margin-top: 15px;
+}
+.topbtn2{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.titleimg {
+    width: 60%;
+    position: absolute;
+    transform: rotate(25deg);
+    overflow: hidden;
+}
+
+img.titleimg {
+    margin-left: 85px;
+    margin-top: 37px;
+}
+#testimonials{
+    background-color: orange;
+    text-align: center;
+    color: #fff;
+
+}
+#press{
+    background-color: orange;
+    text-align: center;
+}
+#testimonials h2{
+    width: 50%;
+    margin: 0% auto;
+    padding: 7% 0%;
+    font-family: serif;
+    font-weight: bold;
+}
+.test-logo{
+    width: 10%;
+    border-radius: 100%;
+    margin-right: 12px;
+}
+.press-logo{
+    width: 15%;
+    margin: 5% 2%;
+    ;
+}
+#pricing{
+    padding: 50px;
+    text-align: center;
+}
+#pricing h2{
+    font-size: 2rem;
+}
+.price-col{
+    padding: 3% 2%;
+}
+@media (max-width:1028px) {
+    .titleimg{
+        position:static;
+        transform: rotate(0deg);
+        width: 40%;
+        margin-left:auto;
+        margin: 0% auto;
+    }
+    .titleheading{
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    .mtimg{
+        text-align: center;
+    }
+}
+#cta{
+    background-color: orange;
+    text-align: center;
+    padding: 7%;
+}
+#cta h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.7rem;
+    width: 50%;
+    margin: 0px auto;
+    color: #fff;
+    font-weight: bold;
+}
+#footer{
+    padding: 5% 15%;
+    text-align: center;
+
+}
+#footer i{
+    font-size: 2rem;
+    padding: 2% 1%;
+}
